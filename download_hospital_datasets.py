@@ -11,7 +11,7 @@ METASTORE_URL = 'https://data.cms.gov/provider-data/api/1/metastore/schemas/data
 METADATA_FILE = 'last_runs.json'
 OUTPUT_DIR = 'processed'
 
-# helper to convert headers
+# helper to convert headerss
 def to_snake_case(text):
     # remove non-alphanumeric and spaces
     text = re.sub(r"[^\w\s]", "", text)
